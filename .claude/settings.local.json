@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /d/GoWorks/docmost log --oneline)",
+      "Bash(wc -l /d/GoWorks/docmost/apps/client/src/**/*.tsx /d/GoWorks/docmost/apps/client/src/**/*.ts)",
+      "Bash(find /d/GoWorks/docmost/packages -name *licence* -o -name *license*)",
+      "Bash(find /d/GoWorks/docmost/packages/ee -type f -name *.ts)",
+      "Bash(grep -r \"POST.*license\\\\|@Post.*license\" /d/GoWorks/docmost/apps --include=*.ts -B 2 -A 2)"
+    ]
+  }
+}
